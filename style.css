@@ -214,17 +214,25 @@ header .logo {
 
     width: 300px;
     height: auto;
-    display: flex;
-    justify-content: center;
+    margin-top: 20px;
+    
     animation: secondside 1s linear;
 }
 
 .homepage .circle {
+    
     justify-self: center;
+    display: flex;
     fill: var(--color);
+    
     filter: drop-shadow(0 12px 12px rgba(36, 211, 188, 0.199));
 }
 
+.homepage .circle .My-image{
+    width: 940px;
+    transform: translateX(-240px);
+    
+}
 /*adding animaiton to the picture*/
 @keyframes secondside {
     0% {
@@ -273,15 +281,18 @@ header .logo {
     padding: 0px 10%;
     display: flex;
     justify-content: center;
-
+    
     animation: secondside2 2s;
 }
 
 .border-2 {
     width: 300px;
     height: auto;
+    margin-top: 10%;
 }
-
+.second-side .My-image1{
+    
+}
 .border-2 path {
 
     stroke: var(--color);
@@ -619,4 +630,8 @@ textarea {
     top: 90%;
     margin-left: 85%;
     border-radius: 5px;
+}
+/*styling the image*/
+.profile-pic image{
+    background-color:red;
 }
