@@ -40,7 +40,7 @@ body {
     --color: rgb(39, 158, 132);
     --color-secondary: rgba(30, 156, 139, 0.253);
     --color-alternative : rgb(33, 160, 143);
-    --txt-color: grey;
+    --txt-color: red;
     --bg-color: rgb(15, 22, 27);
     --bg-color-secondary: rgb(29, 37, 44);
     --height: 100%;
