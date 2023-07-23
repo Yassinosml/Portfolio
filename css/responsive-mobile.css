@@ -1,0 +1,167 @@
+/*-----------Making it Responsive----------*/
+@media (min-width: 840px) and (max-width: 1080px) {
+
+    /* Styling the header */
+    .bar {
+        font-size: 35px;
+        padding: 5px;
+    }
+    .navbar{
+        right: -10%;
+    }
+    header .logo {
+        font-size: 30px;
+    }
+    header{
+        height: 100px;
+        padding: 20px 40px;
+    }
+
+    .navbar ul li,
+    .navbar ul li a {
+        margin-top: 80px;
+        font-size: 30px;
+    }
+
+    /*Styling the home page*/
+        /*styling tha home page*/
+    .homepage {
+        flex-direction: row;
+        padding: 100px 5%;
+        justify-content: space-between;
+    }
+    .homepage .first-side {
+        align-items: start;
+        text-align: start;
+        font-size: 16px;
+        width: 58%;
+    }
+    .homepage .icons{
+        justify-content: start;
+        gap: 10px;
+    }
+    .homepage .profile-pic{
+        width: 400px;
+    }
+    /*styling the about page */
+    .about-page{
+        flex-direction: row-reverse;
+        padding: 100px 5%;
+        gap: 40px;
+        justify-content: center;
+        
+    }
+    .about-page .first-side{
+        
+        align-items: start;
+        width:60%;
+        font-size: 18px;
+        padding: 0px 0px;text-align: start;
+    }
+    .about-page .second-side{
+        width: 40%;
+        padding: 0%;
+        
+    }
+    .border-2{
+        width: 400px;
+    }
+    /*Styling Skills Page*/
+    .skills-page {
+        display: flex;
+        justify-content: center;
+        padding: 100px 5%;
+        text-align: start;
+        
+    }
+    .skills-page .first-side{
+        text-align: start;
+        align-items: start;
+        font-size: 18px;
+        width: 50%;
+    }
+    .skills-page .second-side{
+        font-size: 18px;
+        width: 50%;
+    }
+    /* ---------------- The Services Page -------------*/
+
+
+    .services{
+        padding: 100px 0px;
+    }
+    .services .second-side{
+        flex-direction: row;
+        gap: 5%;
+        
+        padding: 0px 5%;
+    }
+    .services .box{
+        margin-bottom: 0;
+        width: 250px;
+        height: 200px;
+        padding: 0px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .services .icon{
+        font-size: 25px;
+    }
+    .services .information{
+        
+        font-size: 10px;
+    }
+    .services .title{
+        font-size: 20px;
+    }
+    /* ---------------- The Projects Page -------------*/
+        .projects-page .second-side {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+        }
+    
+        .projects-page .second-side .first {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            gap: 5%;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .projects-page .second-side .second {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            gap: 5%;
+            align-items: center;
+            justify-content: center;
+        }
+        .projects-page .project{
+            width: 350px;
+            height: 250px;
+        }
+        .projects-page .title{
+            font-size: 20px;
+        }
+        
+        /* ---------------- The Contact Page -------------*/
+        .contact-page form .input-box{
+            display: flex;
+            justify-content: center;
+            gap: 5%;
+            flex-direction: row;
+        }
+        .contact-page form input{
+            width: 100%;
+            
+        }
+        .contact-page textarea{
+            width: 100%;
+        }
+
+}

@@ -1,0 +1,218 @@
+/*-----------Making it Responsive----------*/
+@media (min-width: 1081px) {
+
+    /* Styling the header */
+    .bar {
+        display: none;
+        position: absolute;
+        top: -999px;
+    }
+
+    header .logo {
+        font-size: 30px;
+
+    }
+
+    header {
+        height: 100px;
+        
+    }
+    .navbar{
+        opacity: 1;
+        position: absolute;
+        top: 35px;
+        padding-right: 5%;
+        display: flex;
+        justify-content: end;
+        backdrop-filter: blur(0px);
+        width: 100%;
+        right: 10px;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+    .navbar ul li,
+    .navbar ul li a {
+        display: inline-block;
+        margin-top: 0px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    /*Styling the home page*/
+    /*styling tha home page*/
+    .homepage {
+        flex-direction: row;
+        padding: 100px 5%;
+        justify-content: space-between;
+    }
+
+    .homepage .first-side {
+        align-items: start;
+        text-align: start;
+        font-size: 25px;
+        width: 58%;
+    }
+
+    .homepage .icons {
+        justify-content: start;
+        gap: 10px;
+    }
+    .first-side button{
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .homepage .profile-pic {
+        width: 500px;
+    }
+
+    /*styling the about page */
+    .about-page {
+        flex-direction: row-reverse;
+        padding: 100px 5%;
+        gap: 10%;
+        justify-content: center;
+
+    }
+
+    .about-page .first-side {
+
+        align-items: start;
+        width: 60%;
+        font-size: 25px;
+        padding: 0px 0px;
+        text-align: start;
+    }
+
+    .about-page .second-side {
+        width: 40%;
+        padding: 0%;
+
+    }
+
+    .border-2 {
+        width: 500px;
+    }
+
+    /*Styling Skills Page*/
+    .skills-page {
+        display: flex;
+        justify-content: center;
+        padding: 100px 5%;
+        text-align: start;
+
+    }
+
+    .skills-page .first-side {
+        text-align: start;
+        align-items: start;
+        font-size: 25px;
+        width: 50%;
+    }
+
+    .skills-page .second-side {
+        font-size: 25px;
+        width: 50%;
+    }
+
+    /* ---------------- The Services Page -------------*/
+
+
+    .services {
+        padding: 100px 0px;
+    }
+
+    .services .second-side {
+        flex-direction: row;
+        gap: 5%;
+
+        padding: 0px 5%;
+    }
+    .services .title{
+        font-size: 25px;
+    }
+    .services .box {
+        margin-bottom: 0;
+        width: 350px;
+        height: 300px;
+        padding: 0px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .services .icon {
+        font-size: 35px;
+    }
+
+    .services .information {
+
+        font-size: 16px;
+    }
+    .services .box h3{
+        font-size: 20px;
+    }
+    /* ---------------- The Projects Page -------------*/
+    .projects-page .second-side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+    
+    .projects-page .second-side .first {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 5%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects-page .second-side .second {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 5%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects-page .project {
+        width: 350px;
+        height: 250px;
+    }
+    .projects-page .title{
+        font-size: 25px;
+    }
+    .projects-page .project .content {
+            font-size: 20px;
+        }
+    /* ---------------- The Contact Page -------------*/
+    .contact-page form .input-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5%;
+    }
+    .contact-page .title{
+        font-size: 25px;
+    }
+    .contact-page form input {
+        width: 100%;
+        font-size: 20px;
+
+    }
+
+    .contact-page textarea {
+        width: 100%;
+        font-size: 20px;
+        height: 300px;
+    }
+
+}
