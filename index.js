@@ -11,7 +11,7 @@ bar.addEventListener('click',() => {
     }
     else {
         
-        navbar.style.right = '-30%';
+        navbar.style.right = '-40%';
         navbar.style.opacity = '1';
         bar.classList.replace('fa-bars','fa-xmark')
     }
