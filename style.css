@@ -6,9 +6,7 @@
     color: white;
 }
 
-html {
-    scroll-behavior: smooth;
-}
+
 /*Styling Scroll-Bar*/
 html::-webkit-scrollbar{
     width: 10px;
