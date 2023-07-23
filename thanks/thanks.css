@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --color: rgb(36, 211, 188);
+    --color-secondary: rgba(0, 255, 221, 0.253);
+    --color-alternative: rgb(33, 160, 143);
+    --txt-color: grey;
+    --bg-color: rgb(15, 22, 27);
+    --bg-color-secondary: rgb(29, 37, 44);
+    --height: 100%;
+}
+body{
+    background-color: var(--bg-color);
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+span{
+    color: var(--color);
+}
+h1{
+    margin-bottom: 15px;
+}
+a{
+    text-decoration: none;
+    color: var(--color);
+    display: block;
+    margin-top: 10px;
+}
