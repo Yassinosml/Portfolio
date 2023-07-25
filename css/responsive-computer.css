@@ -38,7 +38,7 @@
         display: inline-block;
         margin-top: 0px;
         margin-left: 20px;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     /*Styling the home page*/
@@ -52,7 +52,7 @@
     .homepage .first-side {
         align-items: start;
         text-align: start;
-        font-size: 25px;
+        font-size: 20px;
         width: 58%;
     }
 
@@ -66,7 +66,7 @@
         font-size: 18px;
     }
     .homepage .profile-pic {
-        width: 500px;
+        width: 450px;
     }
 
     /*styling the about page */
@@ -82,7 +82,7 @@
 
         align-items: start;
         width: 60%;
-        font-size: 25px;
+        font-size: 20px;
         padding: 0px 0px;
         text-align: start;
     }
@@ -94,7 +94,7 @@
     }
 
     .border-2 {
-        width: 500px;
+        width: 450px;
     }
 
     /*Styling Skills Page*/

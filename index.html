@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive-mobile.css">
     <link rel="stylesheet" href="css/responsive-computer.css">
+    <link rel="stylesheet" href="css/animation.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -100,7 +101,7 @@
         <!-------------- About-Page--------------->
         <div class="about-page" id="about-page">
             <!-- The first side -->
-            <div class="first-side">
+            <div class="first-side animate">
                 <p>My <span>Intro</span></p>
                 <h1>About Me</h1>
                 <p class="information">
@@ -109,8 +110,8 @@
                 </p>
                 <a href="#contact-page"><button class="talk">Contact Me</button></a>
             </div>
-            <div class="profile-pic">
-                <svg class="border-2" viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div class="profile-pic ">
+                <svg class="border-2 animate" viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <mask id="maskBorder" mask-type="alpha">
                         <path d="M263 48.1782C270.426 43.891 279.574 43.891 287 48.1782L501.157 
                   171.822C508.583 176.109 513.157 184.032 513.157 192.606V439.894C513.157 
@@ -148,7 +149,7 @@
         <!-------------- Skills-Page--------------->
         <div class="skills-page">
             <!-- The First-Side -->
-            <div class="first-side">
+            <div class="first-side animate">
                 <p>Favorite <span>skills</span></p>
                 <h1>My Skills</h1>
                 <p class="information">
@@ -157,7 +158,7 @@
                 <a href="#projects-page"><button class="talk">See Projects</button></a>
             </div>
             <!-- The Second-Side -->
-            <div class="second-side">
+            <div class="second-side animate">
                 <ul>
                     <li><span>01.</span>HTML Expert</li>
                     <li><span>02.</span>CSS Expert</li>
@@ -174,27 +175,27 @@
         <!------------- Services-Page-------------->
         <div class="services" id="services">
             <!-- The First-Side -->
-            <div class="first-side">
-                <div class="title">
+            <div class="first-side ">
+                <div class="title animate">
                     <p>My <span>Services</span></p>
                     <h1>What I Do</h1>
                 </div>
             </div>
             <!-- The Second Side -->
-            <div class="second-side">
-                <div class="box">
+            <div class="second-side ">
+                <div class="box  box1 animate">
                     <i class="fa-regular fa-window-maximize icon"></i>
                     <h3>Web Developer</h3>
                     <p class="information">Development of custom web pages using current technologies and libraries of
                         the labor field</p>
                 </div>
-                <div class="box">
+                <div class="box box2 animate">
                     <i class="fa-solid fa-paper-plane icon"></i>
                     <h3>Modern Email Templates</h3>
                     <p class="information">Modern Email Templates with attractive design and
                         appearance,Responsive in all devices.</p>
                 </div>
-                <div class="box">
+                <div class="box box3 animate">
                     <i class="fa-solid fa-laptop icon"></i>
                     <h3>Professional Portfolios</h3>
                     <p class="information">Experience in building Responsive Professional Personal Portfolios with High
@@ -206,14 +207,14 @@
         <section>
             <div class="projects-page" id="projects-page">
                 <!-- The First-Side -->
-                <div class="title">
+                <div class="title animate">
                     <p>My <span>Jobs</span></p>
                     <h1>Recent Projects</h1>
                 </div>
                 <!-- The Second-Side -->
                 <div class="second-side">
                     <div class="first">
-                        <div class="project p1">
+                        <div class="project animate p1">
                             <div class="content">
                                 <article>
                                     <p>Web</p>
@@ -224,7 +225,7 @@
                                 </article>
                             </div>
                         </div>
-                        <div class="project p2">
+                        <div class="project animate p2">
                             <div class="content">
                                 <article>
                                     <p>Web</p>
@@ -235,7 +236,7 @@
                                 </article>
                             </div>
                         </div>
-                        <div class="project p3">
+                        <div class="project animate p3">
                             <div class="content">
                                 <article>
                                     <p>Web</p>
@@ -249,7 +250,7 @@
 
                     </div>
                     <div class="second">
-                        <div class="project p4">
+                        <div class="project animate p4">
                             <div class="content">
                                 <article>
                                     <p>Web</p>
@@ -260,7 +261,7 @@
                                 </article>
                             </div>
                         </div>
-                        <div class="project p5">
+                        <div class="project animate p5">
                             <div class="content">
                                 <article>
                                     <p>Web</p>
@@ -271,7 +272,7 @@
                                 </article>
                             </div>
                         </div>
-                        <div class="project p6 ">
+                        <div class="project animate p6 ">
                             <div class="content">
                                 <article>
                                     <p>Web</p>
@@ -288,7 +289,7 @@
             </div>
         </section>
         <div class="contact-page" id="contact-page">
-            <div class="title">
+            <div class="title animate">
                 <p>Get In <span>Touch</span></p>
                 <h1>Contact Me</h1>
             </div>
@@ -297,11 +298,11 @@
                 <input type="text" name="_honey" style="display:none">
                 <input type="hidden" name="_captcha" value="false">
                 <div class="input-box">
-                    <input type="text" name="name" required placeholder="Enter your name" class="name">
-                    <input type="email" name="email" required placeholder="Enter your email" class="email">
+                    <input type="text" name="name" required placeholder="Enter your name" class="name animate">
+                    <input type="email" name="email" required placeholder="Enter your email" class="email animate">
                 </div>
                 <br>
-                <textarea name="textarea" id="" cols="30" rows="10" placeholder="Enter your message" class="message"></textarea>
+                <textarea name="textarea" id="" cols="30" rows="10" placeholder="Enter your message" class="message animate"></textarea>
                 <button type="submit" class="submit">Send Message</button>
             </form>
         </div>

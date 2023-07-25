@@ -23,3 +23,22 @@ document.querySelector('main').addEventListener('click',() => {
         bar.classList.replace('fa-xmark','fa-bars')
     }
 })
+/*animation while scrolling*/
+const elements = document.querySelectorAll('.animate');
+
+const observer = new IntersectionObserver(
+    enteries => {
+        enteries.forEach(entry => {
+            entry.target.classList.toggle('show',entry.isIntersecting)
+            
+        }
+        )
+    },
+    {
+        threshold : 0.15,
+    }
+    
+)
+elements.forEach(element => {
+    observer.observe(element)
+})

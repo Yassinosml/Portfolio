@@ -1,0 +1,38 @@
+/*adding animation to about page*/
+.show{
+    transition: 2s;
+}
+.about-page .show {
+    top: 0px;
+    opacity: 1;
+}
+/*adding animation to skills page*/
+.skills-page .show {
+    left: 0px;
+    opacity: 1;
+}
+/*adding animation to services page*/
+.services .show {
+    right: 0px;
+    opacity: 1;
+}
+/*adding animation to projects page*/
+.projects-page .show {
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+}
+.projects-page .first .show {
+    left: 0px;
+    opacity: 1;
+}
+.projects-page .second .show {
+    left: 0px;
+    opacity: 1;
+}
+/*adding animation to contact page*/
+.contact-page .show {
+    top: 0px;
+    opacity: 1;
+    transform: scale(100%);
+}
