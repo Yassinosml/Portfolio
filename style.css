@@ -50,9 +50,7 @@ body {
 /*styling Navbar*/
 
 header {
-    /*background-color: var(--bg-color);*/
-    -webkit-backdrop-filter: blur(50px);
-    backdrop-filter: blur(50px);
+    background-color: var(--bg-color);
     display: flex;
     flex-wrap: wrap;
     height: 60px;
